@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "types": ["jasmine", "node"],
+    "noEmit": true,
+    "module": "ES2020"
+  },
+  "include": ["src/**/*.spec.ts", "src/**/*.spec.tsx", "src/data/**/*.ts", "src/types/**/*.d.ts"]
+}
